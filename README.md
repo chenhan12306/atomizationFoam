@@ -21,6 +21,15 @@ git clone https://github.com/imfd-stroemungsmechanik/atomizationFoam.git
 ./Allwmake
 ```
 
+## Documentation
+
+- Docs live in `docs/`. Generate API + guides with:
+```
+cd docs && doxygen Doxyfile
+```
+- Open `docs/build/html/index.html` in a browser.
+- Start with `docs/usage.md`, `docs/components.md`, and `docs/examples/crossFlow.md`.
+
 ## Reference
 
 The source code has been published in the following open-access research article:
